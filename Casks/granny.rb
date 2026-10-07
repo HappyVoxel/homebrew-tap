@@ -1,6 +1,6 @@
 cask "granny" do
-  version "0.1.12"
-  sha256 "c4802b5de8fed70b6da792108e52f91a7ec1ad0e4d5b589a4d5ac6c2b05bc00e"
+  version "0.1.13"
+  sha256 "895e4fef4165fd7a96e35fd2f293a7fe1df2d0f41a5dfea5ddaaee742ebd994a"
 
   url "https://github.com/HappyVoxel/granny/releases/download/v#{version}/granny-#{version}.zip"
   name "granny"
