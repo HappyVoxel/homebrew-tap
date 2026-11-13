@@ -1,6 +1,6 @@
 cask "granny" do
-  version "0.2.14"
-  sha256 "dc2e39bb5e03341d325062a042dfc920ff52b0272db0b36194d2cf9dcc323459"
+  version "0.2.15"
+  sha256 "3c9fb5c1605cd1b58e3c05b6c6996ea202f60c8eaada08024b74cbbddc6e2ba6"
 
   url "https://github.com/HappyVoxel/granny/releases/download/v#{version}/granny-#{version}.zip"
   name "granny"
@@ -8,6 +8,7 @@ cask "granny" do
   homepage "https://github.com/HappyVoxel/granny"
 
   depends_on macos: :sonoma
+  depends_on formula: "node"
 
   app "granny.app"
 
